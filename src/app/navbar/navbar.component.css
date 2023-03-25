@@ -1,0 +1,22 @@
+.navbar {
+  background: #4d4d4d;
+}
+.custom-title {
+  color: #fff4e0;
+}
+.navbar a {
+  color: #fff4e0;
+  font-weight: 400;
+}
+.navbar a:hover {
+  color: #b46060;
+}
+.navbar a:active {
+  border-bottom: 1px solid #b46060;
+}
+.navbar-brand .logo,
+footer .logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  color: #fff4e0;
+}

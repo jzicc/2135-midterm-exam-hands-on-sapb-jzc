@@ -1,0 +1,143 @@
+<html>
+  <head>
+    <title>Beyond The Shelf</title>
+    <link rel="stylesheet" href="home.component.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- main -->
+    <div class="container-fluid">
+      <!-- banner -->
+      <div class="row banner" color="primary">
+        <div class="row col-md inner-banner m-4">
+          <div class="col-md-6 content bg-circle align-self-center text-center">
+            <h1 class="text-center">Spring Sale!</h1>
+            <p class="dummy-desc">
+              {{ home }}
+            </p>
+            <div class="button">
+              <button type="button" class="btn">
+                Shop Now <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6 image alig-end">
+            <div class=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="container text-center about my-5">
+      <div class="row">
+        <div class="col-lg col-md col-sm col-xs">
+          <h2 class="custom-title my-5">What We Offer</h2>
+          <p class="dummy-desc">
+            {{ offer }}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- collection -->
+    <div class="container text-center collections my-5">
+      <h2 class="custom-title">Available Now!</h2>
+      <div class="row my-5">
+        <div class="col-md-4">
+          <div class="card" style="width: 20rem;">
+            <img
+              class="card-img-top"
+              src="https://stackblitz.com/files/github-bezwdy-1rxbjc/github/jzicc/2135-beyondtheshelf-sapb-jzc/main/src/app/pic1.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">{{ Title }}</h5>
+              <p class="card-text dummy-desc">Title: {{ Title }}</p>
+              <p class="card-text dummy-desc">Author: {{ Author }}</p>
+              <p class="card-text dummy-desc">Publisher: {{ Publisher }}</p>
+              <p class="card-text dummy-desc">Category: {{ Category }}</p>
+              <p class="card-text dummy-desc">Price: {{ Price }}</p>
+              <p class="card-text dummy-desc">
+                Description:
+                {{ Desc }}
+              </p>
+
+              <button (click)="goToCart('cart')">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 22rem;">
+            <img
+              class="card-img-top"
+              src="https://stackblitz.com/files/github-bezwdy-1rxbjc/github/jzicc/2135-beyondtheshelf-sapb-jzc/main/src/app/pic2.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">{{ Title2 }}</h5>
+              <p class="card-text dummy-desc">Title: {{ Title2 }}</p>
+              <p class="card-text dummy-desc">Author: {{ Author2 }}</p>
+              <p class="card-text dummy-desc">Publisher: {{ Publisher2 }}</p>
+              <p class="card-text dummy-desc">Category: {{ Category2 }}</p>
+              <p class="card-text dummy-desc">Price: {{ Price2 }}</p>
+              <p class="card-text dummy-desc">Description: {{ Desc2 }}</p>
+              <button (click)="goToCart('cart')">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 25rem;">
+            <img
+              class="card-img-top"
+              src="https://stackblitz.com/files/github-bezwdy-1rxbjc/github/jzicc/2135-beyondtheshelf-sapb-jzc/main/src/app/pic3.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">{{ Title3 }}</h5>
+              <p class="card-text dummy-desc">Title: {{ Title3 }}</p>
+              <p class="card-text dummy-desc">Author: {{ Author3 }}</p>
+              <p class="card-text dummy-desc">Publisher: {{ Publisher3 }}</p>
+              <p class="card-text dummy-desc">Category: {{ Category3 }}</p>
+              <p class="card-text dummy-desc">Price: {{ Price3 }}</p>
+              <p class="card-text dummy-desc">Description: {{ Desc3 }}</p>
+              <button (click)="goToCart('cart')">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img
+              class="card-img-top"
+              src="https://stackblitz.com/files/github-bezwdy-1rxbjc/github/jzicc/2135-beyondtheshelf-sapb-jzc/main/src/app/pic4.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">{{ Title4 }}</h5>
+              <p class="card-text dummy-desc">Title: {{ Title4 }}</p>
+              <p class="card-text dummy-desc">Author: {{ Author4 }}</p>
+              <p class="card-text dummy-desc">Publisher: {{ Publisher }}</p>
+              <p class="card-text dummy-desc">Category: {{ Category4 }}</p>
+              <p class="card-text dummy-desc">Price:{{ Price4 }}</p>
+              <p class="card-text dummy-desc">Description: {{ Desc4 }}</p>
+              <button (click)="goToCart('cart')">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

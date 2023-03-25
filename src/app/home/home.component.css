@@ -1,0 +1,132 @@
+*,
+img {
+  object-fit: contain;
+}
+
+a {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #f44336;
+}
+.dummy-desc {
+  font-size: 14px;
+}
+.container-fluid .banner {
+  background: linear-gradient(to bottom, #ffd4d4, #ffffe8);
+  height: 500px;
+}
+.inner-banner {
+  border: 2px solid #4d4d4d;
+}
+.container-fluid .banner .image {
+  background: url(pic2.jpg) no-repeat;
+  background-size: contain;
+}
+.container-fluid .banner .content {
+  color: #4d4d4d;
+  line-height: 25px;
+  font-weight: 700;
+}
+.container-fluid .banner .content h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 5em;
+  color: #00ff37;
+  text-shadow: 2px 2px #00464c;
+}
+
+.button .btn,
+.card .btn {
+  font-size: 16px;
+  font-weight: 600;
+  color: #4d4d4d;
+  border: 3px solid #4d4d4d;
+  border-radius: 0;
+}
+.button .btn:hover,
+.card .btn:hover {
+  background: #cde990;
+  color: rgb(45, 6, 6);
+}
+
+/* collection */
+.collections .card img {
+  height: 200px;
+  max-height: 200px;
+  background-color: #9294b5;
+}
+.collections .card .card-title {
+  color: #009688;
+}
+/* grid */
+
+.grid {
+  height: 300px;
+}
+.grid:hover {
+  opacity: 0.6;
+  color: #fff;
+}
+.grid .button {
+  height: 300px;
+}
+.grid:hover .button {
+  height: 275px;
+  margin: 15px 0px;
+  border: 1px solid #fff;
+}
+.grid .button {
+  visibility: hidden;
+}
+.grid:hover > .button {
+  visibility: visible;
+  cursor: pointer;
+}
+.grid-1 .grid-1-1 {
+  background: url(1.jpg) no-repeat;
+  background-size: cover;
+}
+.grid-1 .grid-1-2 {
+  background: url(2.jpg) no-repeat;
+  background-size: cover;
+}
+.grid-2 .grid-2-1 {
+  background: url(3.jpg) no-repeat;
+  background-size: cover;
+}
+.grid-2 .grid-2-2 {
+  background: url(4.jpg) no-repeat;
+  background-size: cover;
+}
+.grid-2 .grid-2-3 {
+  background: url(5.jpg) no-repeat;
+  background-size: cover;
+}
+.grid-3 .grid-3-1 {
+  background: url(6.jpg) no-repeat;
+  background-size: cover;
+}
+.grid-3 .grid-3-2 {
+  background: url(7.jpg) no-repeat;
+  background-size: cover;
+}
+
+#more {
+  display: none;
+}
